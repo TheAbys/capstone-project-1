@@ -6,7 +6,7 @@ pipeline {
         maven 'Maven'
     }
     environment {
-        DOCKER_REPO_SERVER = "471112807930.dkr.ecr.eu-central-1.amazonaws.com"
+        DOCKER_REPO_SERVER = "904233123058.dkr.ecr.eu-central-1.amazonaws.com"
         DOCKER_REPO = "${DOCKER_REPO_SERVER}/capstone-project-1"
     }
     stages {
